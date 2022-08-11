@@ -17,24 +17,24 @@ Currently, the page just consists of a Header and a body containing some text. W
 
 <h2 id="specifications">1. Specifications 🔧</h2>
 
-#### 1.1 Warmup
+### 1.1 Warmup
 Once you have got the frontend up and running, you will notice that on the Header, there is a text that says "Vue is Fun". Your task here is to change it so that it says "Vue is Mega Fun" or "Vue > React".
 
 ### 1.2 Footer
 No personal project is complete without a footer that says "Made with love..." am I right? Your task is to make a footer that is positioned at the bottom of the page even if the user scrolls anywhere on the page.
 
-#### 1.2 Login Form
+### 1.2 Login Form
 - The page shall have a form which allows the user to input their username and password.
 - The username field will be displayed as text while the password field will be displayed as password.
 - There should be a button that says 'Login'
 
-#### 1.3 Login Request
+### 1.3 Login Request
 - When the login button is clicked, there should be a modal popup displaying the message that you will receive from the backend
 - One of 2 scenarios can occur after clicking the login button:
   1. The user receives a status 401 response, this can happen if either the username or password field is empty or both are empty (i.e. length === 0)
   2. The user receives a status 200 response, this can happen if both the username and password are not empty (i.e. length > 0)
 
-#### 1.4 Styling
+### 1.4 Styling
 You are free to express your creativity here, the only limit is your imagination. Note that presentation **will be taken into account** when assessing your work.
 
 <hr /> 
@@ -42,10 +42,10 @@ You are free to express your creativity here, the only limit is your imagination
 <h2 id="extension">2. Extension 🏗️</h2>
 There are a few challenges that you can attempt for those sweet extra bonus points:
 
-#### 2.1 Linting
+### 2.1 Linting
 The frontend has a linter set up. Make sure that your code conforms to the linter's style expectations when running the command `pnpm run lint`.
 
-#### 2.2 User Profile Page
+### 2.2 User Profile Page
 Make a profile page for the user when logging in. It is up to you how you want this home page to look like.
 
 ### 2.3 Tailwind
