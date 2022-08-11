@@ -19,8 +19,8 @@ export default defineComponent ({
 </script>
 
 <template>
-  <div class="header-container">
-    <a id="logo">Pogjects</a>
+  <div class='header-container'>
+    <a id='logo'>Pogjects</a>
     <div>
       {{ changeText }}
     </div>

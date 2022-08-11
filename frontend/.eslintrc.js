@@ -3,6 +3,7 @@ module.exports = {
     // add more generic rulesets here, such as:
     // 'eslint:recommended',
     'plugin:vue/vue3-recommended',
+    // 'plugin:vue/recommended' // Use this if you are using Vue.js 2.x.
   ],
   rules: {
     // override/add rules settings here, such as:
@@ -10,10 +11,10 @@ module.exports = {
     'vue/require-v-for-key': 'error',
     'vue/html-end-tags': 'error',
     'vue/html-self-closing': 'error',
+    'vue/html-indent': ['error', 2],
+    'vue/html-quotes': ['error', 'single'],
     'indent': ['error', 2],
     'quotes': ['error', 'single'],
   },
-  parserOptions: {
-    ecmaVersion: 'latest',
-  },
+  "parser": "vue-eslint-parser"
 }

@@ -7,9 +7,7 @@ export default defineComponent({
     WebsiteHeader,
   },
   data() {
-    return {
-      changeText: '',
-    };
+    return {};
   },
 });
 </script>
@@ -17,7 +15,7 @@ export default defineComponent({
 <template>
   <main>
     <WebsiteHeader />
-    <div class="home-body">
+    <div class='home-body'>
       <h2>
         Welcome brave soul... to the world of Vue.js
       </h2>
@@ -28,8 +26,8 @@ export default defineComponent({
       <h3>
         Link to challenge:
         <a
-          href="https://github.com/Darianlmj/projects-frontend-assessment"
-          target="_blank"
+          href='https://github.com/Darianlmj/projects-frontend-assessment'
+          target='_blank'
         >
           projects-frontend-assessment
         </a>
