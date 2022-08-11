@@ -60,6 +60,8 @@ You've been told that good code coverage and continuous testing is vital to the 
 
 <h2 id="getting-started">3. Getting Started 😎</h2>
 
+If you do not have `pnpm` installed, you can do so by running the command `npm install -g pnpm`. Then verify it by running `pnpm --version`.
+
 Starting up the frontend
 1. Fork this repository into your own GitHub account.
 2. Navigate to the `/frontend` directory and run `pnpm install`.

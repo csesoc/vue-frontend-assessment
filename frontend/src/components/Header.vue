@@ -38,6 +38,8 @@ export default defineComponent ({
     align-items: center;
     padding: 2rem 1rem;
     border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   #logo {
