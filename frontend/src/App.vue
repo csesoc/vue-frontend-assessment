@@ -1,22 +1,22 @@
 <script lang="ts">
-  import { defineComponent } from 'vue';
-  import Header from './components/Header.vue'
+import { defineComponent } from 'vue';
+import WebsiteHeader from './components/Header.vue'
 
-  export default defineComponent({
-    components: {
-      Header,
-    },
-    data() {
-      return {
-        changeText: '',
-      };
-    },
-  });
+export default defineComponent({
+  components: {
+    WebsiteHeader,
+  },
+  data() {
+    return {
+      changeText: '',
+    };
+  },
+});
 </script>
 
 <template>
   <main>
-    <Header />
+    <WebsiteHeader />
     <div class="home-body">
       <h2>
         Welcome brave soul... to the world of Vue.js
@@ -27,7 +27,10 @@
       </p>
       <h3>
         Link to challenge:
-        <a href="https://github.com/Darianlmj/projects-frontend-assessment" target="_blank">
+        <a
+          href="https://github.com/Darianlmj/projects-frontend-assessment"
+          target="_blank"
+        >
           projects-frontend-assessment
         </a>
       </h3>

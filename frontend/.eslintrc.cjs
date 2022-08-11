@@ -10,6 +10,10 @@ module.exports = {
     'vue/require-v-for-key': 'error',
     'vue/html-end-tags': 'error',
     'vue/html-self-closing': 'error',
-    'vue/html-quotes': ['error', 'single']
-  }
+    'indent': ['error', 2],
+    'quotes': ['error', 'single'],
+  },
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
 }
