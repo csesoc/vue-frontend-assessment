@@ -4,6 +4,8 @@ In this challenge, you will need to build the frontend for a simple login page.
 
 Currently, the page just consists of a Header and a body containing some text. We need to spruce this page up a little ✨
 
+**Note: We do not expect anyone to complete this assessment. It is made to simulate a mini assignment and might be overwhelming for some. However, if you do end up submitting something, you can bet that we will take under HEAVY consideration. You might also learn something new and interesting from it.**
+
 <p align="center">
   <a href="#specifications">Specifications</a> •
   <a href="#extension">Extension</a> •
@@ -49,6 +51,9 @@ Make a profile page for the user when logging in. It is up to you how you want t
 ### 2.3 Tailwind
 Some of our flagship projects such as Jobs Board and Chaos uses Tailwindcss to style our components. Your task is to refactor the codebase so that it uses Tailwindcss.
 
+### 2.4 Testing
+You've been told that good code coverage and continuous testing is vital to the development process right? If not, it is right. In our flagship projects, you will hardly come across a piece of code that doesn't have some sort of test written for it. Well, for your task here, you will need to set up cypress to test the usability of your website. Write a simple test case that takes the user through the process of logging in. You are welcome to write more test cases if you want to :wink:
+
 *Hint: you may want to take a look into routing for Vue*
 
 <hr /> 
@@ -65,7 +70,18 @@ Starting up the backend
 1. In a seperate terminal, navigate to the `/backend` directory and run `pnpm install`.
 2. Run `pnpm run start`.
 
+<hr />
 
-<h2 id="submission">4. Submission 🏁</h2>
+<h2 id="submission">4. Submission and Assessment 🏁</h2>
 
-To make a submission, ensure that your forked repository is public and paste a link to it in your Projects Application in the relevant field.
+To make a submission, ensure that your forked repository is public and paste a link to it in your Projects Application in the relevant field. You will be assessed on the following aspects:
+1. Code quality
+2. Code style
+3. Use of semantic tags
+4. Use of meaningful class names and ids
+5. Presentation of website
+6. Functionality/Amount of tasks completed
+7. Linting (Extension)
+8. Usability tests (Extension)
+9. Tailwind refactor (Extension)
+10. User profile page (Extension)
