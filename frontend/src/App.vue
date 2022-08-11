@@ -2,6 +2,9 @@
 import { defineComponent } from 'vue';
 import WebsiteHeader from './components/Header.vue'
 
+/**
+ * App component. You are welcome to modify this file.
+ */
 export default defineComponent({
   components: {
     WebsiteHeader,

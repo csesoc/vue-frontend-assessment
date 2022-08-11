@@ -1,6 +1,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
+/**
+ * Header component. You are welcome to modify this file although it might break the challenge.
+ * Only modify it if you are confident of your abilities =)
+ */
+
 export default defineComponent ({
   name: 'WebsiteHeader',
   props: {
@@ -11,9 +16,7 @@ export default defineComponent ({
     },
   },
   data() {
-    return {
-      // changeText: this.changeText,
-    };  
+    return {};  
   }
 });
 </script>
@@ -34,7 +37,6 @@ export default defineComponent ({
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1rem;
-    /* background-color: #f5f5f5; */
     border-bottom: 1px solid #e5e5e5;
   }
 
