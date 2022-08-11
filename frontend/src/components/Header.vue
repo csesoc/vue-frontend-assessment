@@ -1,11 +1,32 @@
-<script setup lang="ts">
+<script lang="ts">
+  import { PropType, defineComponent } from 'vue'
+
+  interface HeaderProps {
+    changeText: string;
+  }
+
+  export default defineComponent ({
+    name: 'Header',
+    props: {
+      changeText: {
+        type: Object as PropType<HeaderProps['changeText']>,
+        required: false,
+        default: 'Vue is Fun'
+      },
+    },
+    data() {
+      return {
+        changeText: this.changeText,
+      };  
+    }
+  });
 </script>
 
 <template>
   <div class="header-container">
     <a id="logo">Pogjects</a>
     <div>
-      Vue is Fun
+      {{ changeText }}
     </div>
   </div>
 </template>
