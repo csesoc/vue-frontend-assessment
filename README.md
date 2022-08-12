@@ -21,7 +21,7 @@ Currently, the page just consists of a Header and a body containing some text. W
 Once you have got the frontend up and running, you will notice that on the Header, there is a text that says "Vue is Fun". Your task here is to change it so that it says "Vue is Mega Fun" or "Vue > React".
 
 ### 1.2 Footer
-No personal project is complete without a footer that says "Made with love..." am I right? Your task is to make a footer that is positioned at the bottom of the page even if the user scrolls anywhere on the page.
+No personal project is complete without a footer that says "Made with love..." am I right? Your task is to make a footer that is positioned at the bottom of the page regardless of where the user currently is on the page. It is up to you how you want this footer to look like.
 
 ### 1.2 Login Form
 - The page shall have a form which allows the user to input their username and password.
@@ -46,15 +46,15 @@ There are a few challenges that you can attempt for those sweet extra bonus poin
 The frontend has a linter set up. Make sure that your code conforms to the linter's style expectations when running the command `pnpm run lint`.
 
 ### 2.2 User Profile Page
-Make a profile page for the user when logging in. It is up to you how you want this home page to look like.
+Make a profile page for the user when logging in. It is up to you how you want this profile page to look like.
+
+*Hint: you may want to take a look into routing for Vue*
 
 ### 2.3 Tailwind
 Some of our flagship projects such as Jobs Board and Chaos uses Tailwindcss to style our components. Your task is to refactor the codebase so that it uses Tailwindcss.
 
 ### 2.4 Testing
 You've been told that good code coverage and continuous testing is vital to the development process right? If not, it is right. In our flagship projects, you will hardly come across a piece of code that doesn't have some sort of test written for it. Well, for your task here, you will need to set up cypress to test the usability of your website. Write a simple test case that takes the user through the process of logging in. You are welcome to write more test cases if you want to :wink:
-
-*Hint: you may want to take a look into routing for Vue*
 
 <hr /> 
 
