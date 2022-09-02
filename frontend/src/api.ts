@@ -1,4 +1,4 @@
-import { URL } from './config';
+import { BACKEND_URL } from './config';
 
 const request = async (path: string, method: string, payload = {}) => {
   return await fetch(path, {
@@ -15,4 +15,4 @@ const useEndpoint = (url: string) => {
   return { login }
 }
 
-export default useEndpoint(URL);
+export default useEndpoint(BACKEND_URL);

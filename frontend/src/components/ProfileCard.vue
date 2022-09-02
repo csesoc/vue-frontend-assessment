@@ -18,6 +18,7 @@ export default defineComponent ({
           >
           <div class='flex justify-center py-4'>
             <a
+              id='website'
               target='_blank'
               href='https://adriantan09.github.io/'
               class='px-3'
@@ -30,6 +31,7 @@ export default defineComponent ({
             </a>
 
             <a
+              id='github'
               target='_blank'
               href='https://github.com/adriantan09'
               class='px-3'
@@ -42,6 +44,7 @@ export default defineComponent ({
             </a>
 
             <a
+              id='linkedin'
               target='_blank'
               href='https://www.linkedin.com/in/adriantan09/'
               class='px-3'
