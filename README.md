@@ -70,7 +70,7 @@ Starting up the frontend
 
 Starting up the backend
 1. In a seperate terminal, navigate to the `/backend` directory and run `pnpm install`.
-2. Run `pnpm run start`.
+2. Run `pnpm run dev`.
 
 <hr />
 
